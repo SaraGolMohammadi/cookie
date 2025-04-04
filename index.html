@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cookie Co.</title>
+    <link rel="stylesheet" href="./stley.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="p-0 m-0 bg-white">
+    
+    <main class="smooth-scroll">
+    
+        <section class="hero-section slide slide1 h-screen flex items-center justify-center text-center pt-20 relative">
+            <!-- منوی بالایی -->
+            <div class="fixed top-0 left-0 w-full px-12 py-2 text-gray-900 text-lg z-50 bg-white/90 backdrop-blur-lg flex items-center justify-between ">
+                <!-- لوگو -->
+                <img src="./images/CChb1B2h.jpg" alt="Logo" class="w-[10vw] h-auto">
+
+                <!-- لیست منو -->
+                <ul class="flex gap-10 font-light tracking-wide">
+                    <li><a href="#" class="hover:text-gray-500 transition">Franchise</a></li>
+                    <li><a href="#" class="hover:text-gray-500 transition">Catering</a></li>
+                    <li><a href="#" class="hover:text-gray-500 transition">Shipping</a></li>
+                    <li><a href="#" class="hover:text-gray-500 transition">Locations</a></li>
+                </ul>
+
+                <!-- دکمه خرید -->
+                <a href="#" class="border border-gray-400 px-5 py-1 rounded-full text-gray-900 hover:bg-gray-100 transition">
+                    Buy Now
+                </a>
+            </div>
+
+            <div class="hero-content relative">
+                <h1 class="text-[20.5vw] text-[#552c10] relative z-10 font-bold">Cookie</h1>
+                <img src="images/cookie.webp" alt="" 
+                     class=" cookie absolute w-[18vw] - right-[28vw] -top-[-10vw]  z-20 transform rotate-[-60deg]" 
+                     id="cookie">
+                     <img src="images/choco-chips.png" class="choco-chips absolute w-[10vw] - right-[35vw] -top-[-20vw]  z-19   transform rotate-[-14deg]" id="chips">
+                     <img src="images/peanut.png" alt="" class="peanut  absolute w-[10vw] - right-[-1vw] -top-[-5vw]   ">
+                     <img src="images/gem.png" alt="" class="gem absolute w-[3vw] - left-[3vw] -top-[-20vw] z-20 ">  
+            </div>
+        </div>
+        </section>
+    
+    <section class="second-section slide slide2 bg-[rgba(85,44,16,0.2)] w-full" id="slide2">
+        <div class="container">
+            <div class="content-wrapper flex justify-start items-start">  
+                <div class="img-section"></div>
+                <div class="content-section text-left ml-auto mr-0 mt-20"> 
+                    <h2 class="text-left text-[4vw] text-[#552c10] w-[20vw] font-bold">TASTETHE  DIFFERENCE.</h2>
+                    <div class="sub-heading break-words text-lx text-left text-[#552c10] ">Real Eggs, Real Butter, Real Sugar.</div>
+                    <p class="text-left w-[700px] h-[300px]">
+                        Cookie Co. was founded in 2020 during the height of the Covid-19 pandemic by Elise and Matt Thomas. Working behind the scenes to open the first Cookie Co. location, Elise baked her signature cookie recipes using real eggs, real butter, and real cane sugar in her home, preparing hundreds of boxes weekly by hand for driveway pick-up.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="third-section slide slide3" id="slide3">
+        <div class="container flex items-center justify-center text-center mt-[10vw] mb-20 relative z-10  ml-[2vw]">
+            <div class="content-wrapper grid grid-cols-3 gap-8">
+                <div class="product-card bg-[#552c10] p-10 h-[15vw] w-50 rounded-3xl">
+                    <img src="images/frosted-sugar.webp" alt="" class="cooki-sm  w-[15vw] top-[-8vw]  absolute z-9 transform rotate-[-14deg]" id="cookism">
+                    <h4 class="text-[#fff] mt-[4vw] mb-2 bold text-[2vw]">FROSTED SUGAR</h4>
+                    <a href="" class="cta-btn border p-2 text-[#fff] rounded-xl ">Buy Now</a>
+                </div>
+                <div class="product-card bg-[#552c10] p-10 h-[15vw] w-50 rounded-3xl">
+                    <h4 class="text-[#fff] mt-[4vw] mb-2 bold text-[2vw]">MONSTER</h4>
+                    <a href="" class="cta-btn border p-2 text-[#fff] rounded-xl ">Buy Now</a>
+                </div>
+                <div class="product-card bg-[#552c10] p-10 h-[15vw] w-50 rounded-3xl">
+                    <img src="images/oreo.webp" alt="" class="cooki-sm  w-[15vw] top-[-8vw]   absolute z-9 transform rotate-[-14deg] " id="cookism">
+                    <h4 class="text-[#fff] mt-[4vw] mb-2 bold text-[2vw]">OREO</h4>
+                    <a href="" class="cta-btn border p-2 text-[#fff] rounded-xl ">Buy Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js" integrity="sha512-Ic9xkERjyZ1xgJ5svx3y0u3xrvfT/uPkV99LBwe68xjy/mGtO+4eURHZBW2xW4SZbFrF1Tf090XqB+EVgXnVjw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./index.js"></script>
+</body>
+</html>
