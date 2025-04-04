@@ -2,4 +2,4 @@
 
 
 
-![پیش‌نمایش وبسایت](img/بک-گراند-ماگ-لاکچری.jpg)
+![پیش‌نمایش وبسایت](images/creative-cookies-logo-choco-cookies-logo-awesome-business-vector-logo-png.png)
