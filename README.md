@@ -1,1 +1,1 @@
-[Mug Luxury](https://saragolmohammadi.github.io/cookie/)
+[cookie](https://saragolmohammadi.github.io/cookie/)
