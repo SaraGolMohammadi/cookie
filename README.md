@@ -2,4 +2,4 @@
 
 
 
-![پیش‌نمایش وبسایت](images/creative-cookies-logo-choco-cookies-logo-awesome-business-vector-logo-png.png)
+![پیش‌نمایش وبسایت](images/CChb1B2h.jpg)
